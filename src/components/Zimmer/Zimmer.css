@@ -1,0 +1,31 @@
+.zimmer-container {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    height: 85vh;
+    width: 75vw;
+    border: 40px solid rgba(116, 182, 223, 1);
+    background-color: whitesmoke;
+  }
+
+  .zimmer-container > h1 {
+    color: rgba(116, 182, 223, 1);
+    font-size: 2.6rem;
+    margin-top: -240px;
+  }
+
+  .zimmer-pics {
+      display: flex;
+      flex-wrap: wrap;
+      height: 50vh;
+      width: 50vw;
+      margin-left: 260px;
+      margin-top: 60px;
+  }
+
+  .zimmer-pics > img {
+      height: 24vh;
+      width: 14vw;
+      margin-left: 15px;
+      margin-bottom: -15px;
+      margin-top: -5px;
+  }

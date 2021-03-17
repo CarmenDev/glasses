@@ -1,0 +1,40 @@
+.geschlecht-container {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    height: 85vh;
+    width: 75vw;
+    border: 40px solid rgba(116, 182, 223, 1);
+    background-color: whitesmoke;
+  }
+
+  .geschlecht-container > h1 {
+    color: rgba(116, 182, 223, 1);
+    font-size: 2.6rem;
+    margin-top: -240px;
+  }
+
+  .geschlecht-pics {
+      display: flex;
+      flex-wrap: wrap;
+      height: 60vh;
+      width: 70vw;
+      margin-left: 240px;
+      margin-top: 80px;
+  }
+
+  .geschlecht-pics > img {
+      vertical-align: top;
+      height: 40vh;
+      width: 23vw;
+      margin-left: 30px;
+      margin-bottom: -15px;
+      margin-top: -5px;
+      border: 2px solid rgba(116, 182, 223, 1);
+  }
+
+  .figcaption {
+      color: rgba(116, 182, 223, 1);
+      font-weight: 600;
+      margin-top: 45vh;
+      margin-right: -50px;
+  }

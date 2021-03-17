@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+  }
+  
+  .home-container {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    height: 90vh;
+    width: 80vw;
+    background-color: rgba(116, 182, 223, 1);
+  }
+  
+  .app-container {
+    height: 85vh;
+    width: 75vw;
+    
+  }
+  
+  .question {
+    text-align: center;
+    color: #fff;
+    padding-top: 30vh;
+    font-weight: 800;
+  }
+
+  h4 {
+    color: #fff;
+    text-align: center;
+    padding-top: 4vh;
+    font-weight: light;
+  }
+
+  img {
+    height: 11vh;
+    margin-left: 21vw;
+    margin-top: 55px;
+  }
+
+
