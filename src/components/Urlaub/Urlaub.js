@@ -1,7 +1,7 @@
 import React from 'react';
 import './Urlaub.css';
-import { Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
+import ButtonBis from '../ButtonBis/ButtonBis'
 
 function Urlaub() {
     return (
@@ -16,8 +16,9 @@ function Urlaub() {
                 <img src="/images/abenteuerurlaub.jpg" alt="Abenteuerurlaub" />
             </div>
             <Link to='/zimmer'>
-               <Button variant="contained" color="primary">WEITER</Button>
+               <ButtonBis />
             </Link>
+            
         </div>
     )
 }

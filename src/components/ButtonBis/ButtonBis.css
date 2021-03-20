@@ -1,0 +1,23 @@
+.blue-button {
+    background-color: rgba(116, 182, 223, 1);
+    height: 60px;
+    width: 120px;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    border-radius: 2px;
+    margin-left: 33vw;
+    margin-top: 4vh;
+}
+
+.blue-button-edit { 
+    background-color: rgba(116, 182, 223, 1);
+    height: 60px;
+    width: 120px;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    border-radius: 2px;
+    margin-left: 33vw;
+    margin-top: -20vh !important;
+}

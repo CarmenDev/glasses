@@ -1,7 +1,7 @@
 import React from 'react';
 import './Zimmer.css';
-import { Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
+import ButtonBis from '../ButtonBis/ButtonBis';
 
 
 function Zimmer() {
@@ -17,8 +17,8 @@ function Zimmer() {
             <img src="/images/room_kinder.jpg" alt="Kinderzimmer" />
         </div>
         <Link to='/geschlecht'>
-           <Button variant="contained" color="primary">WEITER</Button>
-        </Link>
+               <ButtonBis />
+            </Link>
     </div>
        
     )

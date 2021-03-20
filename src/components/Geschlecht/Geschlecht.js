@@ -1,6 +1,6 @@
 import React from 'react';
 import './Geschlecht.css';
-import { Button } from '@material-ui/core';
+import ButtonBis from '../ButtonBis/ButtonBis';
 import { Link } from 'react-router-dom';
 
 
@@ -15,7 +15,7 @@ function Geschlechtt() {
                 <figcaption className="figcaption">Männlich</figcaption>
             </div>
             <Link to='/gesichtsform'>
-               <Button variant="contained" color="primary">WEITER</Button>
+               <ButtonBis />
             </Link>
         </div>
     )
